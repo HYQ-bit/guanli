@@ -12,6 +12,7 @@
           type="text"
           placeholder="请输入用户名"
           v-model="LoginForm.username"
+          autocomplete="false"
         ></el-input>
       </el-form-item>
       <el-form-item prop="password">
